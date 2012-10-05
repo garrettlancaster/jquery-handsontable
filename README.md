@@ -22,9 +22,9 @@ First, include all the dependencies:
 Then, run `handsontable()` constructor on an empty div. After that, load some data if you wish:
 
 ```html
-<div id="dataTable" class="dataTable"></div>
+<div id="handsOnTable" class="handsOnTable"></div>
 <script>
-  $("#dataTable").handsontable({
+  $("#handsOnTable").handsontable({
     rows: 6,
     cols: 8
   });
@@ -34,7 +34,7 @@ Then, run `handsontable()` constructor on an empty div. After that, load some da
     ["2009", 20, 11, 14, 13],
     ["2010", 30, 15, 12, 13]
   ];
-  $("#dataTable").handsontable("loadData", data);
+  $("#handsOnTable").handsontable("loadData", data);
 </script>
 ```
 
@@ -177,7 +177,7 @@ autoComplete: [
 ## Similar projects
 
 If you are interested in more complicated data grid solutions, consider:
- - [DataTables](http://datatables.net/)
+ - [handsOnTables](http://handsOnTables.net/)
  - [SlickGrid](https://github.com/mleibman/SlickGrid)
 
 ## License 
